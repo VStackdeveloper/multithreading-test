@@ -56,15 +56,8 @@ class Producer extends Thread{
 					e.printStackTrace();
 				}
 			}
-			
-			
-			
-			
 		}
 	}
-	
-	
-	
 }
 
 class Consumer extends Thread{
@@ -101,9 +94,6 @@ class Consumer extends Thread{
 				if(result==25) 
 					break;
 			}
-			
 		}
 	}
-	
 }
-
